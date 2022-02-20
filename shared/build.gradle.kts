@@ -24,6 +24,8 @@ kotlin {
             dependencies {
                 implementation("io.ktor:ktor-client-serialization:${ktorVersion}")
                 implementation("io.ktor:ktor-client-logging:${ktorVersion}")
+                implementation("io.github.aakira:napier:2.4.0")
+
             }
         }
         val commonTest by getting {
